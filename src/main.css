@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: #1a1a1a;
+    --white-color: #ffffff;
+    --yellow-color: #e7c873;
+    --green-color: #1f4b43;
+    --red-color: #eb664e;
+}
+
+html {
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+}

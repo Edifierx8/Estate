@@ -1,0 +1,102 @@
+.hero {
+    background-image: url(../assets/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 15rem;
+}
+
+.guide {
+    font-size: 13px;
+    padding: 0.3rem 0.8rem;
+    border-radius: 80px;
+    border: 1px solid var(--yellow-color);
+}
+
+.title {
+    font-size: 60px;
+    color: var(--yellow-color);
+    font-size: 400;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: var(--yellow-color);
+    padding-bottom: 2rem;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 80px;
+    font-size: 18px;
+}
+
+.search-box button {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-left: 1rem;
+    border: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 80px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem 0;
+}
+
+.box {
+    background-color: var(--green-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 80px;
+    padding: 0.277rem 1rem 0.277rem 0.277rem;
+}
+
+.box img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 1020px) {
+    
+    
+    .search-box {
+    width: 620px;
+    border: none;
+    border-radius: 80px;
+    font-size: 18px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.search-box button {
+    margin-left: 0;
+    right: 11%;
+}
+}

@@ -1,0 +1,32 @@
+.slider {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cities {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 236px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+figcaption h3, p {
+    text-align: center;
+    color: var(--green-color);
+}

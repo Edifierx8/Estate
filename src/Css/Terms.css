@@ -1,0 +1,10 @@
+.term {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--green-color);
+}
+
+.term p {
+    padding: 1rem 0;
+    color: var(--white-color);
+}

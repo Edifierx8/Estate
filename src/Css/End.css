@@ -1,0 +1,38 @@
+.end {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    padding: 2rem;
+    gap: 2rem;
+    line-height: 1.9;
+}
+
+.end p  {
+    text-align: left;
+    color: var(--white-color);
+}
+
+.end h3 {
+    padding-bottom: 2rem;
+}
+
+.g1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cta {
+    padding: 0.3rem 0.8rem;
+    background-color: var(--white-color);
+    color: var(--green-color);
+    border-radius: 80px;
+}
+
+.quick ul li a {
+    color: var(--white-color);
+}
